@@ -1,0 +1,39 @@
+<head>
+<title>image</title>
+<meta charset='utf-8'>
+<meta name='viewport' content='width=device-width, initial-scale=1'>
+<link rel='stylesheet' href='http://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css'/>
+<style>
+    /*div중에 .container .row, .col이 아닌거*/
+    div :not(.container .row, .col) {
+        border: .1rem solid;
+    }
+
+    #one {
+        width: 10rem;
+        height: 10rem;
+    }
+
+    #two {
+        width: 20rem;
+        height: 20rem;
+    }
+
+    #three {
+        width: 30rem;
+        height: 30rem;
+    }
+</style>
+</head>
+<body>
+<div class='container'>
+    <div class='row'>
+        <div class='col'>
+             <div id='one'><img src='../img/flower.jpg' class='img-fluid'></div>
+             <div id='two'><img src='../img/flower.jpg' class='img-fluid'></div>
+             <div id='three'><img src='../img/flower.jpg' class='img-fluid'></div>
+        </div>
+    </div>
+</div>
+</div>
+<body>

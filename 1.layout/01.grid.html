@@ -1,0 +1,89 @@
+<title>grid</title>
+<meta charset='utf-8'>
+<meta name='viewport' content='width=device-width, initial-scale=1'>
+<link rel='stylesheet' href='http://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css'/>
+<style>
+    .lavender {
+        background-color: lavender;
+    } 
+
+    .lavenderblush {
+        background-color: lavenderblush;
+    }
+</style>
+<body>
+<!--container class를 이용했기때문에 브러우저에서 auto값으로 지정됨-->
+<div class='container'>
+    <h1>container</h1>
+</div>
+
+<div class='container-fluid'>
+    <h1>container-fluid</h1>
+</div>
+            <!--mb(bottom)-3은 아래쪽을 3만큼 줄간격을 띄운다-->
+<div class='container mb-3'>
+    <div class='row'>
+        <div class='col lavender'>11</div>
+        <div class='col lavender-blush'>12</div>
+        <div class='col lavender'>13</div>
+    </div>
+    <div class='row'>
+        <div class='col lavender'>21</div>
+        <div class='col lavender-blush'>22</div>
+    </div>
+</div>
+
+<div class='container-fluid'>
+    <div class='row'>
+        <div class='col lavender'>11</div>
+        <div class='col lavenderblush'>12</div>
+        <div class='col lavender'>13</div>
+    </div>
+    <div class='row'>
+        <div class='col lavender'>21</div>
+        <div class='col lavender.blush'>22</div>
+    </div>
+</div>
+
+<div class='container mt-3'>
+    <div class='row'>
+        <div class='col lavender'>11</div>
+        <div class='col lavenderblush'>12</div>
+    </div>
+
+    <div class='row text-center'>
+        <div class='col lavender'>11</div>
+        <div class='col lavenderblush'>12</div>
+    </div>
+
+    <div class='row'>
+        <div class='col-4 lavender'>11</div>
+        <div class='col-4 lavenderblush'>12</div>
+    </div>
+
+    <div class='row justify-content-start'>
+        <div class='col-4 lavender'>11</div>
+        <div class='col-4 lavenderblush'>12</div>
+    </div>
+
+    <div class='row justify-content-center'>
+        <div class='col-4 lavender'>11</div>
+        <div class='col-4 lavenderblush'>12</div>
+    </div>
+
+    <div class='row justify-content-end'>
+        <div class='col-4 lavender'>11</div>
+        <div class='col-4 lavenderblush'>12</div>
+    </div>
+
+    <div class='row justify-content-around'>
+        <div class='col-4 lavender'>11</div>
+        <div class='col-4 lavenderblush'>12</div>
+    </div>
+
+    <div class='row justify-content-between'>
+        <div class='col-4 lavender'>11</div>
+        <div class='col-4 lavenderblush'>12</div>
+    </div>
+</div>
+</body>

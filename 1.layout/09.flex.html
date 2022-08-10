@@ -1,0 +1,121 @@
+<head>
+<title>flex</title>
+<meta charset='utf-8'>
+<meta name='viewport' content='width=device-width, initial-scale=1'>
+<link rel='stylesheet' href='http://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css'/>
+<style>
+     span {
+        display: block;
+     }
+</style>
+</head>
+<body>
+<div class='container'>
+    <div class='row'>
+        <div class='col'>
+             <div class='p-2 bg-secondary text-white'>
+                 <!--danger=red, success=green, primary=blue-->
+                <span class='bg-danger'>item</span>
+                <span class='bg-success'>item2</span>
+                <span class='bg-primary'>item3</span>
+             </div>
+        </div>
+    </div>
+    <!--과제 위 아래 row 사이를 띄워라-->
+    <div class='row mt-3'>
+        <div class='col'>
+            <civ class='d-flex p-2 bg-secondary text-white' style='height: 7rem'>                
+                <span class='bg-danger'>item</span>
+                <span class='bg-success'>item2</span>
+                <span class='bg-primary'>item3</span>
+            </div>
+        </civ>
+    </div>
+    
+
+    <div class='row mt-3'>
+        <div class='col'>
+            <civ class='d-inline-flex p-2 bg-secondary text-white' style='height: 7rem'>
+                <span class='bg-danger'>item</span>
+                <span class='bg-success'>item2</span>
+                <span class='bg-primary'>item3</span>
+            </civ>
+        </div>
+    </div>
+
+    <div class='row mt-3'>
+        <div class='col'>
+            <civ class='d-flex flex-row p-2 bg-secondary text-white'>
+                <span class='bg-danger'>item</span>
+                <span class='bg-success'>item2</span>
+                <span class='bg-primary'>item3</span>           
+            </civ>
+        </div>
+    </div>
+
+    <div class='row mt-3'>
+        <div class='col'>
+            <civ class='d-flex flex-column p-2 bg-secondary text-white'>
+                
+                    <span class='bg-danger'>item</span>
+                    <span class='bg-success'>item2</span>
+                    <span class='bg-primary'>item3</span>
+               
+            </civ>
+        </div>
+    </div>
+
+    <div class='row mt-3'>
+        <div class='col'>
+            <civ class='d-flex justify-content-start p-2 bg-secondary text-white'>
+                
+                    <span class='bg-danger'>item</span>
+                    <span class='bg-success'>item2</span>
+                    <span class='bg-primary'>item3</span>
+                
+            </civ>
+        </div>
+    </div>
+
+    <div class='row mt-3'>
+        <div class='col'>
+            <civ class='d-flex justify-content-center p-2 bg-secondary text-white'>
+                <span class='bg-danger'>item</span>
+                <span class='bg-success'>item2</span>
+                <span class='bg-primary'>item3</span>
+            </civ>
+        </div>
+    </div>
+
+    <div class='row mt-3'>
+        <div class='col'>
+            <civ class='d-flex justify-content-end p-2 bg-secondary text-white'>
+                <span class='bg-danger'>item</span>
+                <span class='bg-success'>item2</span>
+                <span class='bg-primary'>item3</span>
+            </civ>
+        </div>
+    </div>
+
+    <div class='row mt-3'>
+        <div class='col'>
+            <civ class='d-flex justify-content-center align-items-center p-2 bg-secondary text-white' style='height: 10rem'>
+                <span class='bg-danger'>item</span>
+                <span class='bg-success'>item2</span>
+                <span class='bg-primary'>item3</span>
+            </civ>
+        </div>
+    </div>
+
+    <div class='row mt-3'>
+        <div class='col'>
+            <civ class='d-flex  p-2 bg-secondary text-white'>               
+                <span class='flex-fill bg-danger'>item</span>
+                <span class='flex-fill bg-success'>item2</span>
+                <span class='flex-fill bg-primary'>item3</span>
+            </civ>
+        </div>
+    </div>
+</div>
+</div>
+<body>

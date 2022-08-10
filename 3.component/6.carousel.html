@@ -1,0 +1,72 @@
+<head>
+<title>carousel</title>
+<meta charset='utf-8'>
+<meta name='viewport' content='width=device-width, initial-scale=1'>
+<script src='https://code.jquery.com/jquery-3.6.0.min.js'></script>
+<script src='https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js'></script>
+<link rel='stylesheet' href='http://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css'/>
+<style>
+    
+</style>
+</head>
+<body>
+<div class='container'>
+    <div class='row'>
+        <div class='col'>
+             <div class='carousel slide' data-ride='carousel' data-interval='2000'>
+                <div class='carousel-inner'>
+                    <div class='carousel-item active'>
+                        <img src='../img/cloud1.gif' class='w-100'/>
+                    </div>
+                    <div class='carousel-item'>
+                        <img src='../img/cloud2.gif' class='w-100'/>
+                    </div>
+                    <div class='carousel-item'>
+                        <img src='../img/cloud3.gif' class='w-100'/>
+                    </div>
+                </div>
+             </div>
+        </div>
+
+        <div class='col'>
+            <div id='sky' class='carousel slide' data-ride='carousel' data-interval='2000'>
+               <div class='carousel-inner'>
+                   <div class='carousel-item active'>
+                       <img src='../img/cloud1.gif' class='w-100'/>
+                       <div class='carousel-caption text-dark'>
+                            <h5>무지개</h5>
+                            <p>무지개는 희망을 부른다.</p>
+                       </div>
+                   </div>
+                   <div class='carousel-item'>
+                       <img src='../img/cloud2.gif' class='w-100'/>
+                       <div class='carousel-caption text-dark'>
+                            <h5>사랑</h5>
+                            <p>하늘에서 사랑이 내린다.</p>
+                   
+                        </div> 
+                    </div>          
+                    <div class='carousel-item'>
+                        <img src='../img/cloud3.gif' class='w-100'/>
+                        <div class='carousel-caption text-dark'>
+                            <h5>빛</h5>
+                            <p>하늘과 땅을 빛으로 잇는다.</p>
+                        </div>
+                    </div>
+               </div>
+               <a href='#sky' class='carousel-control-prev' data-slide='prev'>
+                    <span class='carousel-control-prev-icon'></span>
+               </a>
+               <a href='#sky' class='carousel-control-next' data-slide='next'>
+                    <span class='carousel-control-next-icon'></span>
+               </a>
+               <ol class='carousel-indicators'>
+                    <li data-target='#sky' data-slide-to='0' class='active'></li>
+                    <li data-target='#sky' data-slide-to='1'></li>
+                    <li data-target='#sky' data-slide-to='2'></li>
+               </ol>
+            </div>
+       </div>
+    </div>
+</div>
+<body>

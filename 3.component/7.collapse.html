@@ -1,0 +1,84 @@
+<head>
+<title>collapse</title>
+<meta charset='utf-8'>
+<meta name='viewport' content='width=device-width, initial-scale=1'>
+<script src='https://code.jquery.com/jquery-3.6.0.min.js'></script>
+<script src='https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js'></script>
+<link rel='stylesheet' href='http://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css'/>
+<style>
+     
+</style>
+</head>
+<body>
+<div class='container'>
+    <div class='row'>
+        <div class='col'>
+            <a class='btn btn-primary' href='#card' data-toggle='collapse'>A</a>
+            <button type='button' class='btn btn-info' data-target='#card' data-toggle='collapse'>B</button>
+            <hr>
+            <div id='card' class='collapse show'>
+                <div class='card card-body'>
+                    산 정상에 올라서니 속세가 연극처럼 보인다.
+                </div>
+            </div>
+        </div>
+
+        <div class='col'>
+            <a class='btn btn-danger' href='#card1' data-toggle='collapse'>card1</a>
+            <button type='button' class='btn btn-warning' data-target='#card2' data-toggle='collapse'>card2</button>
+            <button type='button' class='btn btn-success' data-target='.both' data-toggle='collapse'>both</button>
+            <hr>
+            <div id='card1' class='collapse both'>
+                <div class='card card-body'>
+                    하늘에서 비가 내린다.
+                </div>
+            </div>
+            <div id='card2' class='collapse both'>
+                <div class='card card-body'>
+                    땅에서 꽃이 핀다.
+                </div>
+            </div>
+        </div>
+
+        <div class='col'>
+            <!--accordian:카드하나가 열리면 다른열린카드는 접힌다-->
+            <div id='universe' class='accordian'>
+                <div class='card'>
+                    <div class='card-header'>
+                        <button type='button' class='btn btn-block text-left'
+                            data-toggle='collapse' data-target="#sky">하늘</button>
+                    </div>
+                    <div id='sky' class='collapse' data-parent='#universe'>
+                        <div class='card-body'>
+                            하늘에서 기운이 내린다.
+                        </div>
+                    </div>
+                </div>
+                <div class='card'>
+                    <div class='card-header'>
+                        <button type='button' class='btn btn-block text-left'
+                            data-toggle='collapse' data-target="#earth">땅</button>
+                    </div>
+                    <div id='earth' class='collapse' data-parent='#universe'>
+                        <div class='card-body'>
+                            땅에서 기운이 솟는다.
+                        </div>
+                    </div>
+                </div>
+                <div class='card'>
+                    <div class='card-header'>
+                        <button type='button' class='btn btn-block text-left'
+                            data-toggle='collapse' data-target="#human">사람</button>
+                    </div>
+                    <div id='human' class='collapse' data-parent='#universe'>
+                        <div class='card-body'>
+                            사람에게 기운이 모인다.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+<body>
